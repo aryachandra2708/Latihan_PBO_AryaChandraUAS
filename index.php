@@ -1,9 +1,9 @@
 <?php
-// Pastikan path file benar sesuai struktur folder
-require_once "koneksi/database.php";
-require_once "classes/PendaftaranReguler.php";
-require_once "classes/PendaftaranPrestasi.php";
-require_once "classes/PendaftaranKedinasan.php";
+// file: index.php
+require_once __DIR__ . "/koneksi/database.php";
+require_once __DIR__ . "/classes/PendaftaranReguler.php";
+require_once __DIR__ . "/classes/PendaftaranPrestasi.php";
+require_once __DIR__ . "/classes/PendaftaranKedinasan.php";
 
 // 1. Inisialisasi Database
 $database = new Database();
