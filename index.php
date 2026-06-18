@@ -1,9 +1,9 @@
 <?php
-// file: index.php
+
 require_once __DIR__ . "/koneksi/database.php";
-require_once __DIR__ . "/classes/PendaftaranReguler.php";
-require_once __DIR__ . "/classes/PendaftaranPrestasi.php";
-require_once __DIR__ . "/classes/PendaftaranKedinasan.php";
+require_once __DIR__ . "/classes/pendaftaran_regular.php";
+require_once __DIR__ . "/classes/pendaftaran_prestasi.php";
+require_once __DIR__ . "/classes/pendaftaran_kedinasan.php";
 
 // 1. Inisialisasi Database
 $database = new Database();
