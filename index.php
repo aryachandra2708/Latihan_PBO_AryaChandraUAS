@@ -1,4 +1,5 @@
 <?php
+// Pastikan path file benar sesuai struktur folder
 require_once "koneksi/database.php";
 require_once "classes/PendaftaranReguler.php";
 require_once "classes/PendaftaranPrestasi.php";
