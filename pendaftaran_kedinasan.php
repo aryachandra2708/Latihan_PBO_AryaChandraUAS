@@ -1,5 +1,5 @@
 <?php
-class PendaftaranReguler extends Pendaftaran {
+class PendaftaranKedinasan extends Pendaftaran {
     
     public function hitungTotalBiaya() {
         return $this->biaya_pendaftaran_dasar;
