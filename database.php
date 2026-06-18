@@ -2,7 +2,7 @@
 
 class Database {
     private $host = "localhost";
-    private $db_name = "DB_SIMULASI_PBO_TI1D_ARYACHANDRAWIBOWOMUKTI";
+    private $db_name = "db_simulasi_pbo_ti1d_aryachandrawibowomukti";
     private $username = "root";
     private $password = "";
     public $conn;
