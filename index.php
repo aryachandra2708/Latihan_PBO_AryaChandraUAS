@@ -3,7 +3,7 @@
 require_once __DIR__ . "/koneksi/database.php";
 require_once __DIR__ . "/classes/PendaftaranReguler.php";
 require_once __DIR__ . "/classes/PendaftaranPrestasi.php";
-require_once __DIR__ . "/classes/PendaftaranKedinasan.php";
+require_once __DIR__ . "/classes/PendaftaranKedinasan.p
 
 // 1. Inisialisasi Database
 $database = new Database();
